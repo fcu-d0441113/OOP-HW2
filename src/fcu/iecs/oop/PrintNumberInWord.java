@@ -15,34 +15,34 @@ public class PrintNumberInWord {
 		switch(num)
 		{
 			case 1:
-				System.out.println("ONE");
+				System.out.println("The input integer is \"ONE\"");
 				break;
 			case 2:
-				System.out.println("TWO");
+				System.out.println("The input integer is \"TWO\"");
 				break;
 			case 3:
-				System.out.println("THREE");
+				System.out.println("The input integer is \"THREE\"");
 				break;
 			case 4:
-				System.out.println("FOUR");
+				System.out.println("The input integer is \"FOUR\"");
 				break;
 			case 5:
-				System.out.println("FIVE");
+				System.out.println("The input integer is \"FIVE\"");
 				break;
 			case 6:
-				System.out.println("SIX");
+				System.out.println("The input integer is \"SIX\"");
 				break;
 			case 7:
-				System.out.println("SEVEN");
+				System.out.println("The input integer is \"SEVEN\"");
 				break;
 			case 8:
-				System.out.println("EIGHT");
+				System.out.println("The input integer is \"EIGHT\"");
 				break;
 			case 9:
-				System.out.println("NINE");
+				System.out.println("The input integer is \"NINE\"");
 				break;
 			default:
-				System.out.println("OTHER");
+				System.out.println("The input integer is \"OTHER\"");
 		}
 
 	}
