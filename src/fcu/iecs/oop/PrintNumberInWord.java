@@ -44,7 +44,7 @@ public class PrintNumberInWord {
 			default:
 				System.out.println("The input integer is \"OTHER\"");
 		}
-
+		scanner.close();
 	}
 
 }

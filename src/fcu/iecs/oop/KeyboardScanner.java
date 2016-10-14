@@ -6,7 +6,7 @@ public class KeyboardScanner {
 
 	public static void main(String[] args) {
 		int num1;
-		float num2,result;
+		float num2;
 		String name;
 		Scanner scanner = new Scanner(System.in);
 		
@@ -17,6 +17,7 @@ public class KeyboardScanner {
 		System.out.printf("Enter a you name:");
 		name = scanner.next();
 		System.out.printf("Hi %s, the multiplication of %d and %f is %.2e.\n",name,num1,num2,num1*num2);
+		scanner.close();
 	}
 
 }
